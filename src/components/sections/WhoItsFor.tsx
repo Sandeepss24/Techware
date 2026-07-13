@@ -82,7 +82,7 @@ export default function WhoItsFor() {
 
       {/* Intro Text Section */}
       <div
-        className="max-w-7xl w-full mx-auto px-8 md:px-12 text-left mb-20 lg:mb-40 mt-[150px] lg:mt-[300px] cursor-pointer relative z-10"
+        className="max-w-7xl w-full mx-auto px-12 sm:px-16 md:px-24 lg:px-32 text-left mb-20 lg:mb-40 mt-[150px] lg:mt-[300px] cursor-pointer relative z-10"
         onClick={() => setIsTextActive(!isTextActive)}
       >
         <h2 className={`text-4xl lg:text-5xl xl:text-[3.7rem] font-sans font-light tracking-tight leading-[1.1] mb-4 transition-colors duration-1000 ease-in-out ${isTextActive ? 'text-[#222]' : 'text-[#c4c4c4]'}`}>

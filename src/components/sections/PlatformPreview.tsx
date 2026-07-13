@@ -49,7 +49,7 @@ const Card = ({ card, index, progress }: { card: CardData, index: number, progre
   return (
     <div 
       className="sticky flex justify-center mb-16 md:mb-24"
-      style={{ top: `calc(15vh + ${index * 40}px)` }}
+      style={{ top: `calc(25vh + ${index * 40}px)` }}
     >
       <motion.div 
         className="w-full max-w-5xl rounded-[32px] p-[1px] shadow-[0_5px_40px_rgba(0,0,0,0.04)]"

@@ -15,7 +15,7 @@ const ptSerif = PT_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Techware Lab - UI/UX Test",
+  title: "Techware Lab",
   description: "A focused, animation-driven build test.",
 };
 
